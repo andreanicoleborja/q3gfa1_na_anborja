@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="index.html"> <button>FA1 Part 1</button></a>
+    <a href="index2.html"> <button>FA1 Part 2</button></a>
+    <a href="index3.html"> <button>FA1 Part 3</button></a>
+
+    <p id="prompt"></p>
+
+    <script>
+        var firstname = prompt("First name: ", firstname);
+        var lastname = prompt("Last name: ", lastname);
+        var birthyear = prompt("Birth Year: ", birthyear);
+        var age = 2024 - birthyear;
+
+        document.getElementById("prompt").innerHTML = "Hello " + firstname + " " + lastname + " !" + " How does it feel to be " + age + " years old?";
+
+    </script>
+</body>
+</html>
